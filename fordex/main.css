@@ -1,0 +1,53 @@
+
+.main-container { 
+    display:flex;
+    width: 474.4px;
+    height: 1565.7px;
+    align-content: center;
+    margin-left:10px;
+}
+
+#gifs-grid{
+    display: inline-flex;
+    flex-direction: column;
+    width: 155px;
+    align-content: center;
+
+}
+
+#gifs-grid2{
+    display: flex;
+    flex-direction: column;
+    width: 155x;
+    align-content: center;
+} 
+
+#gifs-grid3{
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+    margin-right: -20px;
+    align-content: center;
+
+} 
+
+
+.gif {
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+
+html{
+    height: 455px;
+    width: 490px;
+    background-color: #121212;
+}
+
+body{
+
+    height: 500px;
+    width: auto;
+
+}
+

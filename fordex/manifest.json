@@ -1,0 +1,11 @@
+  {
+    "name": "Test",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "browser_action":{
+      "default_popup": "popup.html",
+      "default_title": "Display Gifs"
+    }
+
+  }
