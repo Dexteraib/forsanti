@@ -1,0 +1,164 @@
+html{
+    height:600px;
+    width:auto;
+    overflow: hidden;
+    padding:0px;
+    margin-right:0px;
+}
+
+body{
+    height:600px;
+    width:auto;
+    background-color:#121212;
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding:0px;
+    margin-right: 0px;
+}
+
+#test{
+    color: white;
+}
+
+
+
+#header{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.nav-text{
+    color: #a6a6a6;
+    font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 19px;
+    margin-left: 10px;
+    height: 27px;
+}
+
+#logo{
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 261.86px;
+    height: 27px;
+}
+
+.scrollableArea{
+    color:white;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    text-align: center; 
+    background-color: #121212; 
+    width: 474.4px; 
+    height: 504px; 
+}
+html::-webkit-scrollbar{
+    display: none;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 415px;
+    height: 40px;
+    background: #f1f1f1;
+    margin-bottom: 36px;
+  }
+
+  
+ 
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+
+  .searchBackground {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-left: 425px;
+    z-index: -1;
+    background: linear-gradient(227deg, #9933ff, #ff6666, #9933ff, #ff6666);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+
+.searchIcon{
+    z-index: 1;
+}
+
+#gifs-grid{
+    display: inline-flex;
+    flex-direction: column;
+    width: 155px;
+    align-content: center;
+
+}
+
+#gifs-grid2{
+    display: flex;
+    flex-direction: column;
+    width: 155x;
+    align-content: center;
+} 
+
+#gifs-grid3{
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+    margin-right: -20px;
+    align-content: center;
+
+} 
+
+
+.gif {
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+.main-container { 
+    display:flex;
+    width: 474.4px;
+    height: 1565.7px;
+    align-content: center;
+    margin-left:10px;
+}
